@@ -1,0 +1,222 @@
+@media (max-width: 1170px) {
+  .top-comment {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+  }
+
+  .top-comment h1 {
+    width: 100%;
+  }
+
+  .side-bar {
+    margin-right: 50px;
+  }
+
+  .location {
+    margin: 0 auto;
+    float: none;
+  }
+
+  .location iframe {
+    margin: 0 auto;
+  }
+
+  .middle-wrapper {
+    height: 1950px;
+  }
+
+  .middle-container {
+    height: 1800px;
+  }
+
+  .about-boss {
+    height: 200px;
+  }
+
+  .news-container {
+    float: none;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .news-content p {
+    padding-left: 130px;
+  }
+
+  .interior-container {
+    float: none;
+    width: 100%;
+
+  }
+
+  .hours-container {
+    height: 750px;
+  }
+
+  .hour-info-container {
+    float: none;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .top-wrapper {
+    width: 100%;
+  }
+
+  .top-container {
+    width: 100%;
+  }
+
+  .side-bar {
+    width: 100%;
+    height: 60px;
+  }
+
+  .side-bar img {
+    width: 130px;
+    height: 50px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: none;
+  }
+
+  .top-comment .insta {
+    display: block;
+    color: white;
+  }
+
+  .top-comment h3 {
+    color: white;
+    margin: 0px;
+  }
+
+  /* .top-comment i {
+    display: block;
+    color: white;
+  } */
+
+  .insta {
+    display: none;
+  }
+
+  .menu-smartphone {
+    display: block;
+    float: right;
+    padding-right: 15px;
+  }
+
+  .fa-bars:before {
+    color: white;
+    display: block;
+    line-height: 60px;
+  }
+
+  .insta-smartphone {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .top-comment .fa-instagram:before {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+  }
+
+  .header-menu ul{
+    display: none;
+  }
+
+  .top-comment {
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-comment h1 {
+    font-size: 70px;
+  }
+
+  .middle-wrapper {
+
+  }
+
+  .middle-container {
+    height: 1860px;
+  }
+
+  .hours-container {
+    height: 680px;
+  }
+
+  .about-boss {
+    height: 300px;
+  }
+
+  .news-container {
+    height: 400px;
+  }
+
+  .news-content p {
+    padding: 0px;
+  }
+
+  .interior-container {
+    width: 100%
+  }
+
+  .interior-images {
+    width: 350px;
+    height: 260px;
+  }
+
+  .interior-images img {
+    width: 350px;
+    height: 260px;
+    margin: 0 auto;
+  }
+
+  .location {
+    display: none;
+  }
+
+  .location-smartphone {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hour-info-container {
+    margin-left: 20px;
+  }
+
+  .footer-container {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .footer-container p {
+    width: 100%;
+  }
+
+  .phone {
+    margin: 0px;
+  }
+
+  .footer-logo {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .footer-container img{
+    float: none;
+    margin: 0 auto;
+  }
+
+}
