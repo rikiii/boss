@@ -3,19 +3,6 @@ $(function(){
   var imageIndex = 0;
   var $imageDisplayed;
 
-  // const changeImage = () => {
-  //   $imageDisplayed = $('img').eq(imageIndex);
-  //   $imageDisplayed.removeClass('show');
-  //   if(imageIndex < $('img').length - 1) {
-  //     $imageDisplayed.next().addClass('show');
-  //     imageIndex++;
-  //   } else if (imageIndex === $('img').length - 1) {
-  //     imageIndex = 0;
-  //     $imageDisplayed = $('img').eq(imageIndex);
-  //     $imageDisplayed.addClass('show');
-  //   }
-  // }
-
   const changeImage = () => {
     $imageDisplayed = $('.show');
 
@@ -32,25 +19,46 @@ $(function(){
   var id = setInterval(changeImage, 3000);
 
 
-  // const repeat = () => {
-  //   for(var i = 0; i <= $('img').length; i++) {
-  //     setTimeout(changeImage, 2000, i);
-  //   }
-  // }
-  //
-  // repeat();
 
-  // setInterval(changeImage, 3000);
+  // $('.menu-smartphone').click(function() {
+  //   $('.header-menu-smartphone').slideDown();
+  //   $('.header-menu-smartphone').addClass('open');
+  // })
 
-  // while(i <= $('img').length) {
-  //   setTimeout(changeImage, 1000);
+  // if($('.header-menu-smartphone').hasClass('open')) {
+  //   $('.menu-smartphone').click(function() {
+  //     $('.header-menu-smartphone').slideUp();
+  //     $('.header-menu-smartphone').removeClass('open');
+  //   })
+  // } else {
+  //   $('.menu-smartphone').click(function() {
+  //     $('.header-menu-smartphone').slideDown();
+  //     $('.header-menu-smartphone').addClass('open');
+  //   })
   // }
 
-  // for(var i = 0; i <= $('img').length; i++) {
-  //   setTimeout(changeImage, 5000);
-  //   if(i === $('img').length) {
-  //     i = 0;
-  //   }
-  // }
+  const showMenu = () => {
+    $('.menu-smartphone').click(function() {
+      if($('.header-menu-smartphone').hasClass('open')) {
+        $('.header-menu-smartphone').slideUp();
+        $('.header-menu-smartphone').removeClass('open');
+      } else {
+        $('.header-menu-smartphone').slideDown();
+        $('.header-menu-smartphone').addClass('open');
+      }
+    })
+  }
+
+  $('.menu-smartphone').click(function() {
+    if($('.header-menu-smartphone').hasClass('open')) {
+      $('.header-menu-smartphone').slideUp();
+      $('.header-menu-smartphone').removeClass('open');
+    } else {
+      $('.header-menu-smartphone').slideDown();
+      $('.header-menu-smartphone').addClass('open');
+    }
+  })
+
 
 });
+
