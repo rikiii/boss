@@ -1,4 +1,4 @@
-@media (max-width: 1170px) {
+@media (max-width: 1208px) {
   .top-comment {
     width: 100%;
     padding-left: 0px;
@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 840px) {
   .top-wrapper {
     width: 100%;
   }
@@ -109,13 +109,70 @@
   .menu-smartphone {
     display: block;
     float: right;
-    padding-right: 15px;
+  }
+
+  .menu-icon {
+    float: right;
   }
 
   .fa-bars:before {
     color: white;
     display: block;
     line-height: 60px;
+  }
+
+  .header-menu-smartphone {
+    background-color: rgba(0, 0, 0);
+    display: block;
+    width: 200px;
+    height: 540px;
+    float: right;
+    position: relative;
+    z-index: 5px;
+  }
+
+  .header-menu-smartphone a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 70px;
+    /* position: relative;
+    z-index: 6; */
+  }
+
+  .header-menu-smartphone li:hover {
+    transition: 0.4s;
+    background-color: rgba(255, 255 ,255, 0.8)
+  }
+
+  .header-menu-smartphone li:active {
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .header-menu-smartphone ul {
+    float: left;
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  .header-menu-smartphone li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 70px;
+    width: 200px;
+    text-align: center;
+    /* position: relative;
+    z-index: 7px; */
+  }
+
+  .header-menu-smartphone {
+    display: none;
+  }
+
+  .menu-icon {
+    padding-right: 15px;
   }
 
   .insta-smartphone {
@@ -137,14 +194,17 @@
     padding-left: 0px;
     width: 100%;
     text-align: center;
+    /* position: relative;
+    z-index: 1px; */
   }
 
   .top-comment h1 {
     font-size: 70px;
+    position: relative;
+    z-index: 1px;
   }
 
   .middle-wrapper {
-
   }
 
   .middle-container {
@@ -193,7 +253,8 @@
   }
 
   .hour-info-container {
-    margin-left: 20px;
+    margin: 0 auto;
+    width: 350px;
   }
 
   .footer-container {
