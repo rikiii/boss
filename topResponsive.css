@@ -130,7 +130,7 @@
     position: fixed;
     top: 0px;
     right: 0px;
-    z-index: 5px;
+    z-index: 5;
   }
 
   .header-menu-smartphone a {
