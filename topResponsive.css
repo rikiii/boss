@@ -127,7 +127,9 @@
     width: 200px;
     height: 540px;
     float: right;
-    position: relative;
+    position: fixed;
+    top: 0px;
+    right: 0px;
     z-index: 5px;
   }
 
