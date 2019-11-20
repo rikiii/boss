@@ -1,0 +1,150 @@
+@media (max-width: 1170px) {
+  .eqp {
+    margin-top: 60px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .header-logo {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 130px;
+    height: 50px;
+  }
+
+  .header-logo a {
+    display: block;
+    width: 130px;
+    height: 50px;
+  }
+
+  .header-logo img{
+    margin: 0px;
+    padding: 0px;
+    width: 130px;
+    height: 50px;
+    border: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .header-container {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .menu-smartphone {
+    display: block;
+    color: white;
+    float: right;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .menu-smartphone i {
+    line-height: 60px;
+  }
+
+  .eqp {
+    height: 5200px;
+  }
+
+  .eqp-container li {
+    float: none;
+    width: 100%;
+  }
+
+  .img-size {
+    margin: 0 auto;
+    width: 500px;
+    height: 375px;
+  }
+
+  .eqp-name h2{
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .header-menu-smartphone {
+    width: 200px;
+    height: 450px;
+    background-color: rgba(20, 20, 20);
+    float: right;
+    border-left: solid 1px rgb(50, 50, 50);
+    border-bottom: solid 1px rgb(50, 50, 50);
+  }
+
+  .header-menu-smartphone a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 70px;
+    /* position: relative;
+    z-index: 6; */
+  }
+
+  .header-menu-smartphone li:hover {
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+
+  .header-menu-smartphone li:active {
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .header-menu-smartphone ul {
+    float: left;
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  .header-menu-smartphone li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 70px;
+    width: 200px;
+    text-align: center;
+    /* position: relative;
+    z-index: 7px; */
+  }
+
+  .header-menu-smartphone {
+    margin-top: 60px;
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 5;
+  }
+
+  .eqp {
+    margin-top: 60px;
+    position: absolute;
+    z-index: 1;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .img-size {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-size {
+    width: 275px;
+    height: 205px;
+  }
+
+  .eqp-name h2 {
+    width: 275px;
+  }
+}
