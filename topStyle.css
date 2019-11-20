@@ -57,6 +57,10 @@ body {
   display: none;
 }
 
+.header-menu-smartphone {
+  display: none;
+}
+
 .header-menu {
   color: white;
   height: 420px;
@@ -98,10 +102,6 @@ body {
   margin-right: 0px;
   color: white;
   text-decoration: none;
-}
-
-.header-menu-smartphone {
-  display: none;
 }
   
 .fa-instagram:before {
