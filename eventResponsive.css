@@ -101,7 +101,5 @@
 
   .event-wrapper {
     margin-top: 60px;
-    position: relative;
-    z-index: 1;
   }
 }
