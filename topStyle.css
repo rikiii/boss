@@ -100,6 +100,9 @@ body {
   text-decoration: none;
 }
 
+.header-menu-smartphone {
+  display: none;
+
 .fa-instagram:before {
   display: block;
   margin-left: 129px;
