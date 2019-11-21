@@ -284,3 +284,25 @@
   }
 
 }
+
+@media (max-width: 450px){
+  .header-menu-smartphone {
+    width: 100%;
+  }
+
+  .header-menu-smartphone ul {
+    width: 100%;
+  }
+
+  .header-menu-smartphone a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-menu-smartphone li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
