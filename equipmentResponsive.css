@@ -146,3 +146,36 @@
     width: 275px;
   }
 }
+
+@media (max-width: 500px) {
+  .img-size {
+    width: 275px;
+    height: 205px;
+  }
+
+  .eqp-name h2 {
+    width: 275px;
+  }
+
+  .header-menu-smartphone {
+    width: 100%;
+  }
+
+  .header-menu-smartphone ul {
+    width: 100%;
+  }
+
+  .header-menu-smartphone a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-menu-smartphone li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
