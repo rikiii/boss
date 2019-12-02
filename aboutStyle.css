@@ -60,6 +60,10 @@ body p {
   text-decoration: none;
 }
 
+.menu-smartphone {
+  display: none;
+}
+
 .header-right a {
   text-align: center;
   display: block;
