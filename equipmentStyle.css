@@ -51,7 +51,11 @@ body {
 
 .menu-smartphone {
   display: none;
+}
 
+.header-menu-smartphone {
+  display: none;
+  
 .header-logo a {
   color: rgba(190, 0, 0, 0.7);
   text-decoration: none;
