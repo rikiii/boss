@@ -49,6 +49,9 @@ body {
   width: 140px;
 }
 
+.header-menu {
+  display: none;
+
 .header-menu-smartphone {
   display: none;
 }
