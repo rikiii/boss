@@ -106,6 +106,10 @@ body p {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+.header-menu-smartphone {
+  display: none;
+}
+
 .event-wrapper {
   padding-top: 80px;
   height: 670px;
