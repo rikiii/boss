@@ -53,9 +53,6 @@ body {
   display: none;
 }
 
-.header-menu-smartphone ul {
-  display: none;
-
 .header-logo a {
   color: rgba(190, 0, 0, 0.7);
   text-decoration: none;
