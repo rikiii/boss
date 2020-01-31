@@ -103,6 +103,10 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+.header-menu-smartphone {
+  display: none;
+}
+
 .member-wrapper {
   width: 100%;
   height: 1000px;
